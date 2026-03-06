@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="{{ asset('css/landing.css') }}">
+<link rel="icon" href="{{ asset('assets/personajeMakitha.gif') }}" type="image/gif">
+<link rel="icon" type="image/gif" href="{{ asset('assets/personajeMakitha.gif') }}">
 <title>Makitha — All-in-one Tech Growth Partner</title>
 </head>
 <body>
