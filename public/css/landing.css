@@ -440,11 +440,11 @@
   @media (max-width: 480px) {
     .hero { padding: 28px 16px 16px; }
     .mascot-container {
-        width: 380px;
+        width: 100%;
         position: relative;
         top: -40px;
     }
-    .brand-title { width: 480px; }
+    .brand-title { width: 100%; }
     .logo-item img {
         height: 90px;
         width: 100%;
