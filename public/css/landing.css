@@ -65,7 +65,7 @@
     font-family: 'BlenderPro', sans-serif;
     font-size: clamp(1.1rem, 2.8vw, 1.6rem);
     font-weight: 400;
-    letter-spacing: 0.02em;
+    letter-spacing: 0;
     margin-bottom: 4px;
     opacity: 0;
     animation: fadeInUp 0.8s ease forwards;
@@ -156,10 +156,10 @@
   /* Title SVG */
   .brand-title {
     width: clamp(320px, 50vw, 640px);
-    bottom: 80px;
+    bottom: 100px;
     opacity: 0;
     animation: fadeInUp 0.8s ease 0.65s forwards;
-    position: absolute;
+    position: relative;
 }
 
   .brand-title svg {
