@@ -20,6 +20,14 @@
     font-display: swap;
   }
 
+  @font-face {
+    font-family: 'Plantae';
+    src: url('/fonts/Plantae.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+
   *, *::before, *::after {
     margin: 0;
     padding: 0;
@@ -431,8 +439,12 @@
 
   @media (max-width: 480px) {
     .hero { padding: 28px 16px 16px; }
-    .mascot-container { width: 190px; }
-    .brand-title { width: 240px; }
+    .mascot-container {
+        width: 380px;
+        position: relative;
+        top: -40px;
+    }
+    .brand-title { width: 480px; }
     .logo-item img {
         height: 90px;
         width: 100%;
